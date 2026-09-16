@@ -5,14 +5,28 @@ To write a Python program to check whether the given number is **even** or **odd
 
 ## 🧠 Algorithm
 1. Get an input from the user.
-2. Convert the input to an integer and store it in a variable `a`.
-3. Use the modulo operator `%` to check if `a % 2 == 0`.
-   - If true, print `"EVEN"`.
-   - Else, print `"ODD"`.
-4. End the program.
+2. Convert the input to an integer and store it in variable `a`.
+3. Check whether `a % 2 == 0`.
+4. If the condition is true, print `"EVEN"`.
+5. Otherwise, print `"ODD"`.
+6. End the program.
 
 ## 🧾 Program
+```python
+a = int(input("Enter a number: "))
+
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
+```
 
 ## Output
+```text
+Enter a number: 10
+EVEN
+```
 
 ## Result
+Thus, the given Python program successfully checks whether a number is even or odd using an `if...else` statement.
+
